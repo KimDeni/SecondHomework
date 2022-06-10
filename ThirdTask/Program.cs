@@ -4,8 +4,9 @@ Console.Write("Введите номер дня: ");
 
 int numberOfDay = Convert.ToInt32(Console.ReadLine());
 
-if (numberOfDay > 7 || numberOfDay < 1)
+if (numberOfDay > 7 || numberOfDay < 1){
     Console.WriteLine(-1);
+}
     else if (numberOfDay == 6 || numberOfDay == 7){
         Console.Write(numberOfDay);
         Console.WriteLine(" день недели является выходным.");
